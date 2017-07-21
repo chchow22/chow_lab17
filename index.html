@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html ng-app = "myModule">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel= "stylesheet" type = "text/css" href = "style.css"/>
+  </head>
+  <body ng-controller = "myController">
+
+    <button type = "button" ng-click = "getPosts()"> Click to Get Cute Reddit Posts </button>
+
+    <div>
+      <post-info ng-repeat = "post in posts"> </post-info>
+    </div>
+    <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"> </script>
+    <script src = "https://code.angularjs.org/1.6.4/angular-route.js"> </script>
+    <script src = "module.js"> </script>
+    <script src = "controller.js"> </script>
+    <script src = "service.js"> </script>
+    <script src = "directive.js"> </script>
+  </body>
+</html>

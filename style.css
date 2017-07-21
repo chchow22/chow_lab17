@@ -1,0 +1,28 @@
+body {
+  background-color: black;
+}
+
+img {
+  display: block;
+  height: 300px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+h4 {
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  width: 200px;
+  outline: none;
+}
